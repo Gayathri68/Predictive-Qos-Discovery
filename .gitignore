@@ -1,0 +1,17 @@
+# Compiled Object files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.dll
+*.so
+*.out
+*.app
+
+# Ignore VS Code settings (optional, but good practice)
+.vscode/
+
+# Ignore any intermediate dashboard files if applicable
+node_modules/
+.env
