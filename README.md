@@ -6,6 +6,8 @@
 
 A high-performance, multithreaded service discovery system and load balancer written entirely from scratch in C++ using low-level Windows Sockets (Winsock2). This project actively monitors the real-time resource utilization (CPU and RAM) of individual service nodes and routes incoming client requests to the healthiest server dynamically.
 
+![Dashboard Demo](demo.webp)
+
 ## 🌟 Key Features
 
 *   **Dynamic Load Balancing:** Calculates a real-time QoS Score `(0.6 * CPU) + (0.4 * RAM)` for active nodes to mathematically select the best server for an incoming client.

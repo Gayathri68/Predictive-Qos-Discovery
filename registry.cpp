@@ -207,7 +207,7 @@ DWORD WINAPI HttpDashboardApi(LPVOID lpParam) {
     SOCKET httpSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
     if (httpSocket == INVALID_SOCKET) {
         std::cerr << "HTTP socket creation failed.\n";
-        return 1;
+        return 1; 
     }
 
     sockaddr_in serverAddr;
