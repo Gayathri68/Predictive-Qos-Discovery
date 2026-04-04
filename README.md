@@ -6,7 +6,6 @@
 
 A high-performance, multithreaded service discovery system and load balancer written entirely from scratch in C++ using low-level Windows Sockets (Winsock2). This project actively monitors the real-time resource utilization (CPU and RAM) of individual service nodes and routes incoming client requests to the healthiest server dynamically.
 
-![Dashboard Demo](demo.webp)
 
 ## 🌟 Key Features
 
